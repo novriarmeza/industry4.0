@@ -1,0 +1,412 @@
+/* general */
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Cambria";
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 25px;
+ }
+
+/* header (nav dan content-top) */
+.content-top {
+    padding: 180px 0 150px 0;
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.content-top h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.content-top p {
+    margin-bottom: 3px;
+}
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+    background-color: rgba(2, 151, 250, 0.9);
+}
+.logo {
+    height: 60px;
+}
+nav{
+    height: 65px;
+    width: 100%;
+    background-color: #067aff;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+/* akhir bagian header (nav dan content-top) */
+
+
+/* bagian div main main-raised */
+.col{
+    color: white;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: box-shadow 0.5s;
+    text-align: center;
+}
+.col:hover{
+    box-shadow: 5px 0px 40px orangered;
+}
+.col-icon{
+    padding-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+.col-icon img{
+    width: 150px;
+}
+.main{
+    background-color: rgba(252, 245, 245, 0.5);
+    position: relative;
+    height: 300px;
+}
+.main-raised {
+    margin: -120px 200px 80px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.tombol{
+    display: flex;
+    text-align: center;
+}
+/* akhir bagian div main main-raised */
+
+
+/* main (content) */
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+.btn{
+    background-color: darkblue;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+.content {
+    float: left;
+    width: 68%;
+} 
+.flex-img{
+    padding-bottom: 20px;
+}
+.image-size {
+    width: 820px;
+    object-fit: cover;
+    object-position: center;
+}
+ .image-size2 {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ .image-size3 {
+    width: 270px;
+    height: 270px;
+    object-position: center;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+/*akhir bagian main (content) */
+
+
+/* main (aside) */
+aside {
+    float: right;
+    width: 30%;
+ }
+ header{
+    display: inline;
+}
+.profile header {
+   text-align: center;
+}
+.profile img {
+   width: 200px;
+}
+/* akhir bagian main (aside) */
+
+/* content-middle */
+.middle-left{
+    padding-left: 100px;
+    color: darkblue;
+}
+.middle-left2{
+    padding-left: 100px;
+}
+.middle-right{
+    padding-right: 100px;
+}
+.middle-right2{
+    padding-right: 100px;
+    color: darkblue;
+}
+.middle-right2 h1{
+    text-align: right;
+}
+.middle-right2 p{
+    text-align: right;
+}
+.middle-img{
+    height: 250px;
+}
+.middle-img2{
+    height: 180px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.middle-txt{
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.middle-txt2{
+    display: inline-block;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+.content-middle{
+    height: 250px;
+    width: 100%;
+    background-color:rgb(128, 128, 128, 0.05);
+    display: flex;
+}
+.content-middle2{
+    height: 270px;
+    width: 100%;
+    display: flex;
+}
+/*akhir bagian content-middle */
+
+/* content-bottom (EKOSISTEM INDUSTRI 4.0) */
+.content-bottom{
+
+    width: 100%;
+    background-color:rgb(128, 128, 128, 0.1);
+}
+.content-bottom-flex-container{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.content-bottom-box{
+    width: 20%;
+    margin: 0 20px;
+    text-align: center;
+    color: darkblue;
+    transition: box-shadow 0.5s;
+    padding-top: 10px;
+    border: 1px solid darkblue;
+}
+.content-bottom-box:hover{
+    box-shadow: 5px 0px 40px orangered;
+}
+/* akhir bagian content-bottom (EKOSISTEM INDUSTRI 4.0) */
+
+/* bottom (FOTO TEAM) */
+.bottom{
+    padding: 20px 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+.bottom p{
+    padding: 10px
+}
+.bottom-img{
+    width: 400px;
+    box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #067aff;
+    color: white;
+}
+
+/* media */
+@media all and (max-width: 1300px) {
+    .content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    .content-bottom-flex-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .content-bottom-box{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .col{
+        color: darkblue;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+  }
+@media all and (max-width: 1000px) {
+    .content-bottom-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-bottom-box{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .content-middle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .content-middle2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .middle-left{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        color: darkblue;
+    }
+    .middle-left2{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .middle-right{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;;
+    }
+    .middle-right2{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: darkblue;
+        height: auto;
+    }
+    .middle-right2 h1{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .middle-right2 p{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .tombol{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .main{
+        background-color: rgba(252, 245, 245, 0.5);
+        position: relative;
+        height: auto;
+    
+    }
+    .main-raised {
+        margin: -120px 100px 80px;
+        padding-top: 30px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+    .col{
+        color: darkblue;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-icon{
+        padding-top: 10px;
+        position: relative;
+        display: inline-block;
+    }
+    .col-icon img{
+        width: 150px;
+    }
+    .image-size {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+     .image-size2 {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+     .image-size3 {
+        width: 100%;
+        height: auto;
+        object-position: center;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+  }
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+}
